@@ -1,0 +1,233 @@
+Folder PATH listing
+Volume serial number is 209D-15C4
+C:.
+|   folder-structure.txt
+|   package-lock.json
+|   
++---.idea
+|       .gitignore
+|       compiler.xml
+|       eco-watch-companion-main.iml
+|       encodings.xml
+|       jarRepositories.xml
+|       misc.xml
+|       modules.xml
+|       workspace.xml
+|       
++---eco-watch-backend
+|   |   pom.xml
+|   |   README.md
+|   |   
+|   +---.idea
+|   |       .gitignore
+|   |       compiler.xml
+|   |       encodings.xml
+|   |       jarRepositories.xml
+|   |       misc.xml
+|   |       workspace.xml
+|   |       
+|   +---src
+|   |   \---main
+|   |       +---java
+|   |       |   \---com
+|   |       |       \---ecowatch
+|   |       |           |   DataInitializer.java
+|   |       |           |   EcoWatchBackendApplication.java
+|   |       |           |   
+|   |       |           +---controller
+|   |       |           |       AlertController.java
+|   |       |           |       SensorController.java
+|   |       |           |       TipController.java
+|   |       |           |       UserController.java
+|   |       |           |       
+|   |       |           +---model
+|   |       |           |       SensorData.java
+|   |       |           |       User.java
+|   |       |           |       
+|   |       |           +---repository
+|   |       |           |       SensorDataRepository.java
+|   |       |           |       UserRepository.java
+|   |       |           |       
+|   |       |           \---service
+|   |       |                   SensorDataService.java
+|   |       |                   UserService.java
+|   |       |                   
+|   |       \---resources
+|   |               application.properties
+|   |               
+|   \---target
+|       |   eco-watch-backend-0.0.1-SNAPSHOT.jar
+|       |   eco-watch-backend-0.0.1-SNAPSHOT.jar.original
+|       |   
+|       +---classes
+|       |   |   application.properties
+|       |   |   
+|       |   \---com
+|       |       \---ecowatch
+|       |           |   DataInitializer.class
+|       |           |   EcoWatchBackendApplication.class
+|       |           |   
+|       |           +---controller
+|       |           |       AlertController.class
+|       |           |       SensorController.class
+|       |           |       TipController.class
+|       |           |       UserController.class
+|       |           |       
+|       |           +---model
+|       |           |       SensorData.class
+|       |           |       User.class
+|       |           |       
+|       |           +---repository
+|       |           |       SensorDataRepository.class
+|       |           |       UserRepository.class
+|       |           |       
+|       |           \---service
+|       |                   SensorDataService.class
+|       |                   UserService.class
+|       |                   
+|       +---generated-sources
+|       |   \---annotations
+|       +---maven-archiver
+|       |       pom.properties
+|       |       
+|       \---maven-status
+|           \---maven-compiler-plugin
+|               \---compile
+|                   \---default-compile
+|                           createdFiles.lst
+|                           inputFiles.lst
+|                           
+\---eco-watch-companion-main
+    |   .gitignore
+    |   bun.lockb
+    |   components.json
+    |   eslint.config.js
+    |   index.html
+    |   package-lock.json
+    |   package.json
+    |   postcss.config.js
+    |   README.md
+    |   tailwind.config.ts
+    |   tsconfig.app.json
+    |   tsconfig.json
+    |   tsconfig.node.json
+    |   vite.config.ts
+    |   
+    +---node_modules
+    |   |   .package-lock.json
+    |   |
+    |   +---.bin
+    |   |
+    |   |
+    |   +---.vite
+    |   |   \---deps
+    |   |
+    |       \---v4-mini
+    |               index.cjs
+    |               index.d.cts
+    |               index.d.ts
+    |               index.js
+    |               
+    +---public
+    |       favicon.ico
+    |       placeholder.svg
+    |       robots.txt
+    |       
+    \---src
+        |   App.css
+        |   App.tsx
+        |   index.css
+        |   main.tsx
+        |   vite-env.d.ts
+        |   
+        +---api
+        |       alertService.ts
+        |       config.ts
+        |       sensorService.ts
+        |       tipService.ts
+        |       userService.ts
+        |       
+        +---components
+        |   +---charts
+        |   |       ProgressChart.tsx
+        |   |       TrendChart.tsx
+        |   |       UsageChart.tsx
+        |   |       
+        |   +---layout
+        |   |       AppLayout.tsx
+        |   |       AppSidebar.tsx
+        |   |       
+        |   \---ui
+        |           accordion.tsx
+        |           alert-dialog.tsx
+        |           alert.tsx
+        |           aspect-ratio.tsx
+        |           avatar.tsx
+        |           badge.tsx
+        |           breadcrumb.tsx
+        |           button.tsx
+        |           calendar.tsx
+        |           card.tsx
+        |           carousel.tsx
+        |           chart.tsx
+        |           checkbox.tsx
+        |           collapsible.tsx
+        |           command.tsx
+        |           context-menu.tsx
+        |           dialog.tsx
+        |           drawer.tsx
+        |           dropdown-menu.tsx
+        |           form.tsx
+        |           hover-card.tsx
+        |           input-otp.tsx
+        |           input.tsx
+        |           label.tsx
+        |           menubar.tsx
+        |           metric-card.tsx
+        |           navigation-menu.tsx
+        |           pagination.tsx
+        |           popover.tsx
+        |           progress.tsx
+        |           radio-group.tsx
+        |           resizable.tsx
+        |           scroll-area.tsx
+        |           select.tsx
+        |           separator.tsx
+        |           sheet.tsx
+        |           sidebar.tsx
+        |           skeleton.tsx
+        |           slider.tsx
+        |           sonner.tsx
+        |           switch.tsx
+        |           table.tsx
+        |           tabs.tsx
+        |           textarea.tsx
+        |           toast.tsx
+        |           toaster.tsx
+        |           toggle-group.tsx
+        |           toggle.tsx
+        |           tooltip.tsx
+        |           use-toast.ts
+        |           
+        +---hooks
+        |       use-mobile.tsx
+        |       use-toast.ts
+        |       
+        +---lib
+        |       utils.ts
+        |       
+        +---pages
+        |       Alerts.tsx
+        |       Dashboard.tsx
+        |       Index.tsx
+        |       Leaderboard.tsx
+        |       Login.tsx
+        |       NotFound.tsx
+        |       Profile.tsx
+        |       Signup.tsx
+        |       Targets.tsx
+        |       UsageLogs.tsx
+        |       
+        \---services
+                api.js
+                
